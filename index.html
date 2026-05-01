@@ -1,11 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>ITE18</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio — Home</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>My First Web Page</h1>
-    <p><strong>Name:</strong> [Leamie Domingo]</p>
-    <p><strong>Course & Section:</strong> [ITE18 - Y1Y21]</p>
+
+  <!-- NAVIGATION BAR -->
+  <nav>
+    <a href="index.html" class="nav-logo">myPortfolio</a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <span class="badge">👋 Welcome</span>
+      <h1>Hi, I'm <span>Leamie Domingo</span></h1>
+      <p>
+        A passionate IS student building cool things on the web.
+        Exploring the intersection of design and technology, one project at a time.
+      </p>
+    </section>
+
+    <!-- INTRODUCTION CARD -->
+    <section>
+      <span class="section-label">Introduction</span>
+      <h2>Who am I?</h2>
+      <div class="card">
+        <p>
+          I'm a 3rd year Information System student who loves problem-solving
+          and creating meaningful digital experiences. I enjoy learning new technologies
+          and applying them through hands-on projects. When I'm not coding, I like
+          exploring UI/UX design and playing strategy games.
+        </p>
+      </div>
+    </section>
+
+    <!-- QUICK LINKS SECTION -->
+    <section>
+      <span class="section-label">Navigate</span>
+      <h2>Explore My Pages</h2>
+      <ul class="skills-list">
+        <li>
+          <span class="skill-icon">🏠</span>
+          <span>Home — You are here</span>
+        </li>
+        <li>
+          <span class="skill-icon">🙋</span>
+          <span><a href="about.html" style="color:var(--accent); text-decoration:none;">About Me</a> — Learn more about my background, skills &amp; layout exercise</span>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Leamie Domingo · ITE-18 Activity 2</p>
+  </footer>
+
 </body>
 </html>
